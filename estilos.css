@@ -1,0 +1,105 @@
+header {
+    margin-bottom: 100px;
+    font-family: sans-serif;
+    background: #d86753;
+}
+
+img {
+    float: right;
+}
+
+.c_uno {
+    float: left;
+}
+
+.c_dos {
+    float: right;
+}
+
+hgroup.portada {
+    text-align: center;
+}
+
+.titulo {
+    margin-bottom: 80px;
+    margin-top: 100px;
+}
+
+.presentado, .juanpablo, .ivan, .diego, .profe, .proyecto, .grado, .colegio, .lugar, .año{
+    margin-bottom: 80px;
+}
+
+.introduccion, .contenido, .presentacion, .justificacion, .conceptual, .contextual, .teorico, .metodologico, .conclusiones, .bibliografia, .enlaces {
+    background: #d86753;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 450px;
+    background: #66bfc2;
+}
+
+h3 {
+    margin-left: 40px;
+    margin-right: 500px;
+    background: #c9aab2;
+}
+
+hgroup {
+    margin-left: 200px;
+}
+
+li {
+    margin-left: 40px;
+}
+
+.programado {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 20px;
+    color:gray;
+}
+
+body {
+    background-image: url(img/Medellin.jpg);
+    background-attachment: fixed;
+    background-size: 1350px 625px
+}
+
+div {
+    background-color: rgba(138, 187, 136, 0.75);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.autores {
+    margin-right: 150px;
+}
+
+p {
+    font-size: large;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.keywords {
+    font-size: large;
+}
+
+footer {
+    background-image: url(img/Colombia.png);
+    background-size: 1000px 25px;
+}
+
+* {
+    font-family: sans-serif;
+}
