@@ -10,10 +10,12 @@ img {
 
 .c_uno {
     float: left;
+    width: 10%;
 }
 
 .c_dos {
     float: right;
+    width: 10%;
 }
 
 hgroup.portada {
@@ -39,19 +41,19 @@ h1 {
 
 h2 {
     text-align: left;
-    margin-left: 40px;
-    margin-right: 450px;
+    margin-left: 3.5%;
+    width: 75%;
     background: #66bfc2;
 }
 
 h3 {
-    margin-left: 40px;
-    margin-right: 500px;
+    margin-left: 3.5%;
+    width: 50%;
     background: #c9aab2;
 }
 
 hgroup {
-    margin-left: 200px;
+    margin-left: 10%;
 }
 
 li {
@@ -62,27 +64,26 @@ li {
     font-weight: bold;
     text-align: center;
     margin-top: 50px;
-    margin-right: 20px;
     color:gray;
 }
 
 body {
     background-image: url(img/Medellin.jpg);
     background-attachment: fixed;
-    background-size: 1350px 625px
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 div {
     background-color: rgba(138, 187, 136, 0.75);
     padding-top: 80px;
     padding-bottom: 80px;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: 87%;
+    margin: auto;
 }
 
 .autores {
-    margin-right: 150px;
+    width: 80%;
 }
 
 p {
@@ -97,7 +98,8 @@ p {
 
 footer {
     background-image: url(img/Colombia.png);
-    background-size: 1000px 25px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 * {
