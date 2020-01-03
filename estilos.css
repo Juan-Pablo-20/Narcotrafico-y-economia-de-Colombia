@@ -57,7 +57,11 @@ hgroup {
 }
 
 li {
-    margin-left: 40px;
+    margin-left: 4%;
+    text-align: justify;
+    width: 85%;
+    font-size: large;
+    line-height: 25px;
 }
 
 .programado {
