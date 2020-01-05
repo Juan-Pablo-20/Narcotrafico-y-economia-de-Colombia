@@ -53,7 +53,15 @@ h3 {
 }
 
 hgroup {
-    margin-left: 10%;
+    margin-left: 5%;
+}
+
+.titulo-dos {
+    margin-left: 3%;
+}
+
+.titulo-tres {
+    margin-left: 6%;
 }
 
 li {
@@ -81,6 +89,15 @@ body {
 body img {
     width: 100%;
     height: auto;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-image: url(img/Medellin-mobile.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        background-repeat: repeat-y;
+    }
 }
 
 div {
