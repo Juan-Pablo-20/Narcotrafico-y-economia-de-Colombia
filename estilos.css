@@ -95,7 +95,7 @@ body img {
     body {
         background-image: url(img/Mobile.jpg);
         background-attachment: fixed;
-        background-size: 480px 600px;
+        background-size: 480px 700px;
         background-repeat: repeat-y;
     }
 }
