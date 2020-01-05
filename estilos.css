@@ -95,7 +95,7 @@ body img {
     body {
         background-image: url(img/Medellin-mobile.jpg);
         background-attachment: fixed;
-        background-size: 100%;
+        background-size: 485px 700px;
         background-repeat: repeat-y;
     }
 }
