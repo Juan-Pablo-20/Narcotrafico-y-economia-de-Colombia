@@ -93,9 +93,9 @@ body img {
 
 @media screen and (max-width: 500px) {
     body {
-        background-image: url(img/Medellin-mobile.jpg);
+        background-image: url(img/Mobile.jpg);
         background-attachment: fixed;
-        background-size: 485px 700px;
+        background-size: 480px 600px;
         background-repeat: repeat-y;
     }
 }
