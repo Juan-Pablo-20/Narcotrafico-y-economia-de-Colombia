@@ -27,6 +27,10 @@ hgroup.portada {
     margin-top: 100px;
 }
 
+a {
+    color:rgb(48, 38, 38);
+}
+
 .presentado, .juanpablo, .ivan, .diego, .profe, .proyecto, .grado, .colegio, .lugar, .año{
     margin-bottom: 80px;
 }
