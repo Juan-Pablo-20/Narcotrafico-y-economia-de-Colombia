@@ -4,6 +4,25 @@ header {
     background: #d86753;
 }
 
+.documento {
+    background: none;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+.pdf1 {
+    color: black;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 125%;
+}
+
 img {
     float: right;
 }
@@ -146,4 +165,11 @@ footer {
 
 * {
     font-family: sans-serif;
+}
+
+.pdf {
+    background: none;
+    font-size: 200%;
+    text-align: right;
+    font-weight: bold;
 }
