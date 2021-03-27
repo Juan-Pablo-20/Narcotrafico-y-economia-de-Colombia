@@ -4,7 +4,6 @@ header {
     background: #d86753;
 }
 
-
 .documento {
     background: none;
     text-align: center;
@@ -115,15 +114,6 @@ body img {
     height: auto;
 }
 
-@media screen and (max-width: 500px) {
-    body {
-        background-image: url(img/Mobile.jpg);
-        background-attachment: fixed;
-        background-size: 480px 700px;
-        background-repeat: repeat-y;
-    }
-}
-
 div {
     background-color: rgba(138, 187, 136, 0.75);
     padding-top: 80px;
@@ -166,4 +156,22 @@ footer {
 
 * {
     font-family: sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-image: url(img/Mobile.jpg);
+        background-attachment: fixed;
+        background-size: 480px 700px;
+        background-repeat: repeat-y;
+    }
+}
+
+@media screen and (max-width: 540px){
+    blockquote {
+        margin: 5%;
+    }
+    div {
+        width: 100%;
+    }
 }
